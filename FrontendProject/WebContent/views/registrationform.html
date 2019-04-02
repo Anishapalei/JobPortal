@@ -25,8 +25,9 @@
 	</div>
 
 	<div class="form-group">
-		Enter Phonenumber <input type="text" ng-model="user.phonenumber"
-			class=form-control">
+		Enter Phonenumber <input type="tel" pattern="[6-9]{1}[0-9]{9}" ng-model="user.phonenumber"
+			class=form-control required maxlength="10">
+			
 	</div>
 
 
